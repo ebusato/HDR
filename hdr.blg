@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: hdr.aux
+The style file: ieeetr.bst
+Database file #1: biblio.bib
+Warning--empty journal in Busato:2015ola
+Warning--empty author in ATLAS-CONF-2012-130
+Warning--empty author in ATLAS-CONF-2013-051
+You've used 43 entries,
+            1876 wiz_defined-function locations,
+            738 strings with 10709 characters,
+and the built_in function-call counts, 9569 in all, are:
+= -- 974
+> -- 364
+< -- 5
++ -- 142
+- -- 99
+* -- 612
+:= -- 1393
+add.period$ -- 56
+call.type$ -- 43
+change.case$ -- 40
+chr.to.int$ -- 0
+cite$ -- 46
+duplicate$ -- 583
+empty$ -- 844
+format.name$ -- 99
+if$ -- 2381
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 33
+newline$ -- 145
+num.names$ -- 40
+pop$ -- 113
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 384
+stack$ -- 0
+substring$ -- 306
+swap$ -- 260
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 74
+width$ -- 45
+write$ -- 436
+(There were 3 warnings)

@@ -1,0 +1,48 @@
+\begin{titlepage}
+\begin{center}
+\noindent {\large \textbf{Universit\'e Blaise Pascal}} \\
+\vspace*{0.3cm}
+\noindent {\LARGE \textbf{ÉCOLE DOCTORALE Sciences Fondamentales}} \\
+\noindent \textbf{Physique des particules \\ et cosmologie} \\
+\vspace*{0.5cm}
+\noindent \Huge \textbf{Habilitation A Diriger des Recherches} \\
+\vspace*{0.5cm}
+\vspace*{0.4cm}
+\noindent \large {Présentée par\\}
+\vspace*{0.4cm}
+\noindent \LARGE \textbf{Djamel \textsc{BOUMEDIENE}} \\
+\vspace*{0.4cm}
+\noindent \large {Docteur es-Sciences de l'universit\'e Pierre et Marie CURIE (Paris VI)\\}
+\vspace*{0.8cm}
+%\noindent {\LARGE \textbf{Test du Mod\`ele Standard sur collisionneur}} \\
+\vspace*{0.4cm}
+%\noindent {\LARGE \textbf{avec quark Top et boson de Higgs}} \\
+
+\vspace*{0.8cm}
+\noindent \Large  \\
+\vspace*{0.6cm}
+\noindent \large soutenance publique le 27 novembre 2015 devant la commission
+d'examen~:\\
+\vspace*{0.5cm}
+\end{center}
+\begin{center}
+\noindent \large
+\begin{tabular}{llcl}
+  \textit{Rapporteurs :}    & St\'ephane \textsc{Monteil}        & - &
+  Professeur, Universit\'e Blaise Pascal \\
+                & Roberto \textsc{Chierici}        & - &
+  Directeur de Recherche (IPN Lyon)\\
+                                & Arnaud \textsc{Lucotte}
+  & - & Directeur de Recherche (LPSC)\\
+      \textit{Président :}    & Alain \textsc{Falvard}            & - & Directeur de Recherche (LPC)\\
+      \textit{Examinateurs :}   & Domnique \textsc{Palin}               & - & Directeur de Recherche (LPC)\\
+                      & Ireni \textsc{Vichou}        & - & Professeur, Universit\'e de Washington\\
+%      \textit{Invité :}        & toto \textsc{TOTO}        & - & Toto Inc S.A.
+      \textit{Invité :}        & chat \textsc{Alien}        & - & CosmoCats
+      \textit{Invité :}        & chat \textsc{Doudou}        & - & OuatoCats
+\end{tabular}
+\end{center}
+\end{titlepage}
+\sloppy
+
+\titlepage

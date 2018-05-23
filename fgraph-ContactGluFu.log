@@ -1,0 +1,13 @@
+This is MetaPost, version 1.803 (kpathsea version 6.1.1)  10 MAY 2016 11:18
+**fgraph-ContactGluFu
+(mpost.mp (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.004) ) (./fgraph-ContactGluFu.mp
+(./feynmp.mp) [1] [2] [3] )
+ 
+Here is how much of MetaPost's memory you used:
+ 400 strings using 6750 characters
+ 1756840 bytes of node memory
+ 922 symbolic tokens
+ 14i,77n,33p,117b,3f stack positions out of 16i,96n,40p,200b,4f
+3 output files written: fgraph-ContactGluFu.1 .. fgraph-ContactGluFu.3
+

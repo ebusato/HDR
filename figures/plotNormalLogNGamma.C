@@ -1,0 +1,102 @@
+#include "AtlasUtils.C"
+
+void plotNormalLogNGamma(double mean, double sigma, double xmin=0, double xmax=50)
+{
+  double up=80;
+
+  TF1* normal = new TF1("normal","ROOT::Math::gaussian_pdf(x,[1],[0])",0,up);
+  normal->SetNpx(1e2);
+  normal->SetLineColor(kBlack);
+  normal->SetParameters(mean,sigma);
+  normal->SetLineWidth(2);
+  
+  TF1* lognormal = new TF1("lognormal","1/(x*sqrt(2*3.14156 * TMath::Log(1 + [1]*[1]/([0]*[0])))) * TMath::Exp(-1*TMath::Power(TMath::Log(x) - TMath::Log([0]) + 0.5*TMath::Log(1+[1]*[1]/([0]*[0])),2)/(2*TMath::Log(1 + [1]*[1]/([0]*[0]))))",0,up);
+  lognormal->SetNpx(2e3);
+  lognormal->SetLineColor(kBlue);
+  lognormal->SetParameters(mean,sigma);
+  lognormal->SetLineStyle(kDotted);
+  lognormal->SetLineWidth(2);
+
+  TF1* gamma = new TF1("fGamma","ROOT::Math::gamma_pdf(x,[0],[1])",0,up);
+  gamma->SetNpx(1e2);
+  gamma->SetLineColor(kRed);
+  gamma->SetParameters(mean*mean/(sigma*sigma),sigma*sigma/mean);
+  gamma->SetLineStyle(kDashed);
+  gamma->SetLineWidth(2);
+
+  TF1* gammaUni = new TF1("fGammaUni","ROOT::Math::gamma_pdf(x,[0],[1])",0,up);
+  gammaUni->SetNpx(1e2);
+  gammaUni->SetLineColor(kMagenta);
+  gammaUni->SetParameters(mean*mean/(sigma*sigma)+1,sigma*sigma/mean);
+  gammaUni->SetLineStyle(kDashed);
+  gammaUni->SetLineWidth(2);
+
+  TF1* gammaJeffrey = new TF1("fGammaJeffrey","ROOT::Math::gamma_pdf(x,[0],[1])",0,up);
+  gammaJeffrey->SetNpx(1e2);
+  gammaJeffrey->SetLineColor(kGreen+2);
+  gammaJeffrey->SetParameters(mean*mean/(sigma*sigma)+0.5,sigma*sigma/mean);
+  gammaJeffrey->SetLineStyle(kDashed);
+  gammaJeffrey->SetLineWidth(2);
+
+  lognormal->GetYaxis()->SetLabelSize(0.);
+  //lognormal->GetYaxis()->SetLabelOffset(0.015);
+  lognormal->GetYaxis()->SetTickLength(0.);
+  lognormal->GetYaxis()->SetTitleSize(0.07);
+  lognormal->GetYaxis()->SetTitleOffset(.7);
+  lognormal->GetYaxis()->SetTitle("f(y ; y^{nom}, #sigma )");
+  lognormal->GetXaxis()->SetRangeUser(xmin,xmax);
+  lognormal->GetXaxis()->SetLabelSize(0.06);
+  lognormal->GetXaxis()->SetLabelOffset(0.015);
+  lognormal->GetXaxis()->SetTitleSize(0.07);
+  lognormal->GetXaxis()->SetTitleOffset(1.1);
+  lognormal->GetXaxis()->SetTitle("y");
+
+  lognormal->Draw();
+  normal->Draw("same");
+  gamma->Draw("same");
+  gammaUni->Draw("same");
+  gammaJeffrey->Draw("same");
+
+  gPad->SetLeftMargin(0.12);
+  gPad->SetRightMargin(0.05);
+  gPad->SetBottomMargin(0.15);
+  
+  TLegend* leg = new TLegend(0.42,0.5337635,0.944,0.8901561);
+  leg->SetFillColor(kWhite);
+  leg->SetLineColor(kWhite);
+  leg->SetBorderSize(0);
+  leg->AddEntry(normal,"normal","l");
+  leg->AddEntry(lognormal,"log-normal","l");
+  leg->AddEntry(gamma,"gamma (hyperbolic prior)","l");
+  leg->AddEntry(gammaUni,"gamma (uniform prior)","l");
+  leg->AddEntry(gammaJeffrey,"gamma (Jeffreys prior)","l");
+  leg->Draw();
+
+  stringstream ssmean;
+  ssmean << mean;
+  stringstream sssigma;
+  sssigma << sigma;
+  myText(0.68,0.36,1,Form("y^{nom} = %s",ssmean.str().c_str()),0.059);
+  myText(0.68,0.28,1,Form("#sigma = %s",sssigma.str().c_str()),0.059);
+}
+
+void plotNormalLogNGamma()
+{
+  gROOT->SetStyle("Plain");
+  gStyle->SetOptTitle(0);
+
+  TCanvas* c1 = new TCanvas("c1","c1",500,900);
+  c1->Divide(1,3);
+
+  c1->cd(1);
+  gPad->SetTopMargin(0);
+  plotNormalLogNGamma(0.5,0.6,0,3);
+  c1->cd(2);
+  gPad->SetTopMargin(0);
+  plotNormalLogNGamma(8,4,0,35);
+  c1->cd(3);
+  gPad->SetTopMargin(0);
+  plotNormalLogNGamma(20,5,0,78);
+  
+  c1->SaveAs("plotNormalLogNGamma.pdf");
+}

@@ -1,0 +1,214 @@
+\begin{thebibliography}{10}
+
+\bibitem{Aad:2014vwa}
+{ATLAS Collaboration}, ``{Measurement of the inclusive jet cross-section in
+  proton-proton collisions at $ \sqrt{s}=7 $ TeV using 4.5~fb$^{-1}$ of data
+  with the ATLAS detector},'' {\em JHEP}, vol.~02, p.~153, 2015.
+\newblock [Erratum: JHEP09,141(2015)].
+
+\bibitem{Aad:2013tea}
+{ATLAS Collaboration}, ``{Measurement of dijet cross sections in $pp$
+  collisions at 7 TeV centre-of-mass energy using the ATLAS detector},'' {\em
+  JHEP}, vol.~1405, p.~059, 2014.
+
+\bibitem{Aad:2014iaa}
+{ATLAS Collaboration}, ``{Measurement of the $ t\overline{t} $ production
+  cross-section as a function of jet multiplicity and jet transverse momentum
+  in 7 TeV proton-proton collisions with the ATLAS detector},'' {\em JHEP},
+  vol.~01, p.~020, 2015.
+
+\bibitem{Aad:2014aqa}
+{ATLAS Collaboration}, ``{Search for new phenomena in the dijet mass
+  distribution using $p-p$ collision data at $\sqrt{s}=8$ TeV with the ATLAS
+  detector},'' {\em Phys. Rev.}, vol.~D91, no.~5, p.~052007, 2015.
+
+\bibitem{camacho:tel-00747143}
+R.~Camacho, {\em {Search of new resonances decaying into top quark pairs with
+  the ATLAS detector at the LHC and jet calibration studies}}.
+\newblock Theses, {Universit{\'e} Blaise Pascal - Clermont-Ferrand II}, July
+  2012.
+\newblock Num\'ero DU : 2259 Num\'ero EDSF : 719.
+
+\bibitem{Busato:1365519}
+R.~Camacho {\em et~al.}, ``{Validation of the Jet Global Sequential Calibration
+  Using Proton-Proton Collisions at $\sqrt{s} = 7$ TeV and Evaluation of its
+  Associated Systematic Uncertainty},'' Tech. Rep. ATL-PHYS-INT-2011-060, CERN,
+  Geneva, Jul 2011.
+
+\bibitem{Aad:2011he}
+{ATLAS Collaboration}, ``{Jet energy measurement with the ATLAS detector in
+  proton-proton collisions at $\sqrt{s}=7$ TeV},'' {\em Eur.Phys.J.}, vol.~C73,
+  p.~2304, 2013.
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``The anti-k$_t$ jet clustering
+  algorithm,'' {\em JHEP}, vol.~04, p.~063, 2008.
+
+\bibitem{1748-0221-3-08-S08003}
+{ATLAS Collaboration}, ``{The ATLAS Experiment at the CERN Large Hadron
+  Collider},'' {\em JINST}, vol.~3, p.~S08003, 2008.
+
+\bibitem{Aad:1541965}
+G.~Aad {\em et~al.}, ``{Invariant Mass Studies for the $H\rightarrow bb$
+  Measurements for LHCP},'' Tech. Rep. ATL-COM-PHYS-2013-449, CERN, Geneva, Apr
+  2013.
+
+\bibitem{Aad:2014xzb}
+{ATLAS Collaboration}, ``{Search for the $b\bar{b}$ decay of the Standard Model
+  Higgs boson in associated $(W/Z)H$ production with the ATLAS detector},''
+  {\em JHEP}, vol.~01, p.~069, 2015.
+
+\bibitem{Stuart:436225}
+A.~Stuart, J.~K. Ord, S.~Arnold, A.~O'Hagan, and J.~Forster, {\em {Kendall's
+  advanced theory of statistics; 6th ed. of the 3-vol. ed.}}
+\newblock Chichester: Wiley, 1994.
+
+\bibitem{0954-3899-28-10-313}
+A.~L. Read, ``Presentation of search results: the cl s technique,'' {\em
+  Journal of Physics G: Nuclear and Particle Physics}, vol.~2810, p.~2693,
+  2002.
+
+\bibitem{Wald43}
+A.~Wald, ``{Tests of Statistical Hypotheses Concerning Several Parameters When
+  the Number of Observations is Large},'' {\em Transactions of the American
+  Mathematical Society}, vol.~54, pp.~426--482, Nov. 1943.
+
+\bibitem{2011EPJC...71.1554C}
+G.~{Cowan}, K.~{Cranmer}, E.~{Gross}, and O.~{Vitells}, ``{Asymptotic formulae
+  for likelihood-based tests of new physics},'' {\em European Physical Journal
+  C}, vol.~71, p.~1554, Feb. 2011.
+
+\bibitem{Cranmer:1456844}
+K.~Cranmer, G.~Lewis, L.~Moneta, A.~Shibata, and W.~Verkerke, ``{HistFactory: A
+  tool for creating statistical models for use with RooFit and RooStats},''
+  Tech. Rep. CERN-OPEN-2012-016, New York U., New York, Jan 2012.
+
+\bibitem{2014arXiv1404.1340B}
+E.~{Busato}, ``{Equivalence between hybrid CLs and bayesian methods for limit
+  setting},'' {\em ArXiv e-prints}, Apr. 2014.
+\newblock {[arXiv:1404.1340 [stat.ME]]}.
+
+\bibitem{Busato:2015ola}
+E.~Busato, D.~Calvet, and T.~Theveneaux-Pelzer, ``{OpTHyLiC: an Optimised Tool
+  for Hybrid Limits Computation},'' 2015.
+\newblock {[arXiv:1502.02610 [hep-ex]]}.
+
+\bibitem{delemontex:in2p3-00844359}
+{\em {Proceedings SOS 2012 IN2P3 School of Statistics}}, The European Physical
+  Journal, (Autrans, France), {EDP Sciences}, 2013.
+\newblock ISBN 9782759810321 EPJ Web of Conferences 55 (2013).
+
+\bibitem{paredeshernandez:tel-00921146}
+D.~Paredes~Hern{\'a}ndez, {\em {Search for New Physics in events with 4 top
+  quarks in the ATLAS detector at the LHC}}.
+\newblock Theses, {Universit{\'e} Blaise Pascal - Clermont-Ferrand II}, Sept.
+  2013.
+
+\bibitem{valery:tel-01079982}
+L.~Val{\'e}ry, {\em {In search of sgluons in final states multitops with the
+  Atlas detector at LHC to $\sqrt{s}= 8$~TeV}}.
+\newblock Theses, {Universit{\'e} Blaise Pascal - Clermont-Ferrand II}, June
+  2014.
+
+\bibitem{doriansimonPhD}
+D.~Simon, {\em {Recherche de nouvelle physique dans les \'ev\'enements \`a
+  quatre quarks top avec le d\'etecteur ATLAS aupr\`es du LHC}}.
+\newblock Theses, {Universit{\'e} Blaise Pascal - Clermont-Ferrand II}, July
+  2015.
+
+\bibitem{ATLAS-CONF-2012-130}
+``{Search for exotic same-sign dilepton signatures (b' quark, T5/3 and four top
+  quarks production) in 4.7/fb of pp collisions at sqrt{s}=7 TeV with the ATLAS
+  detector},'' Tech. Rep. ATLAS-CONF-2012-130, CERN, Geneva, Sep 2012.
+
+\bibitem{ATLAS-CONF-2013-051}
+``{Search for anomalous production of events with same-sign dileptons and $b$
+  jets in 14.3 fb$^{-1}$ of $pp$ collisions at $\sqrt{s} = 8$ TeV with the
+  ATLAS detector},'' Tech. Rep. ATLAS-CONF-2013-051, CERN, Geneva, May 2013.
+\newblock Not published in the proceedings.
+
+\bibitem{Aad:2015gdg}
+{ATLAS Collaboration}, ``{Analysis of events with $b$-jets and a pair of
+  leptons of the same charge in $pp$ collisions at $\sqrt{s}=8$ TeV with the
+  ATLAS detector},'' {\em JHEP}, vol.~10, p.~150, 2015.
+
+\bibitem{Peskin:2015kka}
+M.~E. Peskin, ``{On the Trail of the Higgs Boson},'' {\em arXiv:1506.08185},
+  2015.
+
+\bibitem{PhysRevD.51.3888}
+H.~Georgi, L.~Kaplan, D.~Morin, and A.~Schenk, ``Effects of top quark
+  compositeness,'' {\em Phys. Rev. D}, vol.~51, pp.~3888--3894, 1995.
+
+\bibitem{PhysRevD.78.074026}
+A.~Pomarol and J.~Serra, ``Top quark compositeness: Feasibility and
+  implications,'' {\em Phys. Rev. D}, vol.~78, p.~074026, 2008.
+
+\bibitem{1126-6708-2008-04-087}
+B.~Lillie, J.~Shu, and T.~M. Tait, ``Top compositeness at the tevatron and
+  lhc,'' {\em JHEP}, vol.~0804, p.~087, 2008.
+
+\bibitem{1126-6708-2009-05-022}
+K.~Kumar, T.~M. Tait, and R.~Vega-Morales, ``Manifestations of top
+  compositeness at colliders,'' {\em JHEP}, vol.~0905, p.~022, 2009.
+
+\bibitem{Guchait:2007jd}
+M.~Guchait, F.~Mahmoudi, and K.~Sridhar, ``{Associated production of a
+  Kaluza-Klein excitation of a gluon with a t anti-t pair at the LHC},'' {\em
+  Phys. Lett.}, vol.~B666, pp.~347--351, 2008.
+
+\bibitem{Chen:2008hh}
+C.-R. Chen, W.~Klemm, V.~Rentala, and K.~Wang, ``{Color Sextet Scalars at the
+  CERN Large Hadron Collider},'' {\em Phys.Rev.}, vol.~D79, p.~054002, 2009.
+
+\bibitem{Gerbush:2007fe}
+M.~Gerbush, T.~J. Khoo, D.~J. Phalen, A.~Pierce, and D.~Tucker-Smith,
+  ``{Color-octet scalars at the CERN LHC},'' {\em Phys.Rev.}, vol.~D77,
+  p.~095003, 2008.
+
+\bibitem{Barger:2010uw}
+V.~Barger, W.-Y. Keung, and B.~Yencho, ``{Triple-Top Signal of New Physics at
+  the LHC},'' {\em Phys. Lett.}, vol.~B687, pp.~70--74, 2010.
+
+\bibitem{Lyon11}
+G.~Cacciapaglia, R.~Chierici, A.~Deandrea, L.~Panizzi, S.~Perries, and S.~Tosi,
+  ``{Four tops on the real projective plane at LHC},'' {\em JHEP}, vol.~10,
+  p.~042, 2011.
+
+\bibitem{Jung:2010ms}
+S.~Jung and J.~D. Wells, ``{Low-scale warped extra dimension and its
+  predilection for multiple top quarks},'' {\em JHEP}, vol.~1011, p.~001, 2010.
+
+\bibitem{Kane:2011zd}
+G.~L. Kane, E.~Kuflik, R.~Lu, and L.-T. Wang, ``{Top Channel for Early SUSY
+  Discovery at the LHC},'' {\em Phys.Rev.}, vol.~D84, p.~095004, 2011.
+
+\bibitem{Frigerio:2011zg}
+M.~Frigerio, J.~Serra, and A.~Varagnolo, ``{Composite GUTs: models and
+  expectations at the LHC},'' {\em JHEP}, vol.~1106, p.~029, 2011.
+
+\bibitem{Lyon09}
+G.~Cacciapaglia, A.~Deandrea, and J.~Llodra-Perez, ``{A Dark Matter candidate
+  from Lorentz Invariance in 6D},'' {\em JHEP}, vol.~03, p.~083, 2010.
+
+\bibitem{Lyon12}
+A.~Arbey, G.~Cacciapaglia, A.~Deandrea, and B.~Kubik, ``{Dark Matter in a
+  twisted bottle},'' {\em JHEP}, vol.~01, p.~147, 2013.
+
+\bibitem{Lyon4t}
+G.~Cacciapaglia, A.~Deandrea, and J.~Llodra-Perez, ``{The Universal Real
+  Projective Plane: LHC phenomenology at one Loop},'' {\em JHEP}, vol.~10,
+  p.~146, 2011.
+
+\bibitem{Degrande:2010kt}
+C.~Degrande, J.-M. Gerard, C.~Grojean, F.~Maltoni, and G.~Servant,
+  ``{Non-resonant New Physics in Top Pair Production at Hadron Colliders},''
+  {\em JHEP}, vol.~1103, p.~125, 2011.
+
+\bibitem{Armbruster:1553771}
+A.~Armbruster and J.~Qian, {\em {Discovery of a Higgs Boson with the ATLAS
+  Detector}}.
+\newblock PhD thesis, Michigan U., May 2013.
+\newblock Presented 02 May 2013.
+
+\end{thebibliography}

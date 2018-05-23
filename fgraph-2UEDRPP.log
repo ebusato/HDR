@@ -1,0 +1,13 @@
+This is MetaPost, version 1.803 (kpathsea version 6.1.1)  10 MAY 2016 11:18
+**fgraph-2UEDRPP
+(mpost.mp (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.004) ) (./fgraph-2UEDRPP.mp
+(./feynmp.mp) [1] [2] )
+ 
+Here is how much of MetaPost's memory you used:
+ 843 strings using 18254 characters
+ 2028368 bytes of node memory
+ 926 symbolic tokens
+ 14i,77n,33p,137b,3f stack positions out of 16i,96n,40p,200b,4f
+2 output files written: fgraph-2UEDRPP.1 .. fgraph-2UEDRPP.2
+

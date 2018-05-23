@@ -1,0 +1,182 @@
+
+\documentclass[11pt,a4paper]{book}
+\usepackage[francais]{babel}
+\usepackage{supertabular}
+\usepackage{gensymb}
+\usepackage{amsfonts,amssymb,amsmath,amsthm}
+\usepackage{multicol,multirow}
+\usepackage{comment}
+\usepackage{accents}
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc} 
+\usepackage[noadjust]{cite}
+\usepackage{subfigure,epsfig}
+\usepackage{longtable}
+\usepackage{color}
+\usepackage{atlasphysics}
+\usepackage{feynmp}
+\DeclareGraphicsRule{*}{mps}{*}{} 
+\usepackage{arydshln}
+%\usepackage{subfig}
+
+\hoffset=-1.8cm
+\textwidth=16cm
+\voffset=-0.5cm
+\textheight=23cm
+\oddsidemargin=1.8cm
+\evensidemargin=1.8cm
+\linespread{1.}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+
+\renewcommand{\arraystretch}{1.4}
+
+\setcounter{secnumdepth}{5}
+
+\newenvironment{maliste}%
+{ \begin{list}%
+	{$\bullet$}%
+	{\setlength{\labelwidth}{30pt}%
+	 \setlength{\leftmargin}{35pt}%
+	 %\setlength{\itemsep}{\parsep}
+	 \setlength{\itemsep}{-0pt}	
+	}
+}%
+{ \end{list} }
+
+\newcommand{\fig}[1]{\vspace*{1.5cm}\begin{center}FIGURE: #1\end{center}\vspace*{1.5cm}}
+\newcommand{\dd}{\ensuremath{{\rm d}}}
+\newcommand{\dr}{\partial}
+\newcommand{\ATLAS}   {ATLAS}
+\newcommand{\english}[1]{{\it #1}}
+\newcommand{\alpgen}  {{\sc Alpgen}}
+\newcommand{\madgraph}  {{\sc MadGraph}}
+\newcommand{\bridge}  {{\sc BRIDGE}}
+\newcommand{\pythia}  {{\sc Pyth\-ia}}
+\newcommand{\Perugia} {{\sc Perugia}}
+\newcommand{\geant}   {G{\sc eant}4}
+\newcommand{\herwig}  {{\sc Herwig}}
+\newcommand{\herwigpp}{{\sc Herwig++}}
+\newcommand{\jimmy}   {{\sc Jimmy}}
+\newcommand{\blabla}{\textcolor{red}{\bf BLABLABLA}}
+\newcommand{\exemples}{\textcolor{red}{\bf EXEMPLES}}
+\newcommand{\insitu}{\english{in-situ}}
+\newcommand{\antikt}{anti-$k_t$}
+\newcommand{\Dzero}{D\O\ } 
+\newcommand{\EM}    {{\rm EM}}
+\newcommand{\EMJES} {{\rm EM+JES}}
+\newcommand{\GCW}   {{\rm GCW}}
+\newcommand{\LCW}   {{\rm LCW}}
+\newcommand{\GSL}   {{\rm GSL}}
+\newcommand{\GS}    {{\rm GS}}
+%\newcommand{\GSC}    {{\rm GSC}}
+\newcommand{\JES} {{\rm JES}}
+\newcommand{\Response}  {\ensuremath{\mathcal{R}}} 
+\newcommand{\ptjet}  {\ensuremath{\pt^\mathrm{jet}}}
+\newcommand{\pttrue}  {\ensuremath{\pt^\mathrm{truth}}}
+\newcommand{\Etruth}    {\ensuremath{E^{\rm truth}}}
+\newcommand{\Ecalo}     {\ensuremath{E^{\rm jet}}}
+\newcommand{\width}   {{\rm\it width}}
+\newcommand{\HEC}    {\texttt{HEC}}
+\newcommand{\LAr}    {\texttt{LAr}}
+\newcommand{\FCal}   {\texttt{FCal}}
+\newcommand{\Tile}   {\texttt{Tile}}
+\newcommand{\Presampler}   {\texttt{PS}}
+\newcommand{\ftile}{\ensuremath{f_{\Tile 0}}}
+\newcommand{\fem}  {\ensuremath{f_{\LAr 3}}}
+\newcommand{\fpres}{\ensuremath{f_{\rm PS}}}
+\newcommand{\fhec} {\ensuremath{f_{\HEC 0}}}
+\newcommand{\ffcal}{\ensuremath{f_{\FCal 1}}}
+\newcommand{\etaRange}[2]{\ensuremath{{#1}\leq|\eta|<{#2}}}
+\newcommand{\Lh}{{\cal L}}
+\newcommand{\Lhm}{\ensuremath{{\cal L}_\text{m}}}
+\newcommand{\Est}[1]{\hat{#1}}
+\newlength{\dhatheight}
+\newcommand{\EstCond}[1]{%
+    \settoheight{\dhatheight}{\ensuremath{\hat{#1}}}%
+    \addtolength{\dhatheight}{-0.2ex}%
+    \hat{\vphantom{\rule{1pt}{\dhatheight}}%
+    \smash{\hat{#1}}}}
+\newcommand{\histfactory}{{\sc HistFactory}}
+\newcommand{\opthylic}{{\sc OpTHyLiC}}
+\newcommand{\tifosi}{{\sc TiFoSi}}
+\newcommand{\mclimit}{{\sc McLimit}}
+\newcommand{\roostats}{{\sc RooStats}}
+\newcommand{\roofit}{{\sc RooFit}}
+\newcommand{\rootcern}{{\sc ROOT}}
+\newcommand{\tevatron}{Tevatron}
+\newcommand{\CLs}{\ensuremath{CL_s}}
+\newcommand{\CLsb}{\ensuremath{CL_{s+b}}}
+\newcommand{\CLb}{\ensuremath{CL_b}}
+\newcommand{\mup}{\ensuremath{\mu_{\text{up}}}}
+\newcommand{\qmu}{\ensuremath{q_\mu}}
+\newcommand{\qmup}{\ensuremath{q_{\mu_\text{up}}}}
+\newcommand{\qmuobs}{\ensuremath{\qmu^{\text{obs}}}}
+\newcommand{\qmupobs}{\ensuremath{\qmup^{\text{obs}}}}
+\newcommand{\posterior}{{\it a posteriori}}
+\newcommand{\prior}{{\it a priori}}
+\newcommand{\scc}{\ensuremath{s_c}}
+\newcommand{\scck}{\ensuremath{s_{cl}}}
+\newcommand{\bc}{\ensuremath{b_{c}}}
+\newcommand{\bck}{\ensuremath{b_{cl}}}
+\newcommand{\bci}{\ensuremath{b_{ci}}}
+\newcommand{\bcik}{\ensuremath{b_{cil}}}
+\newcommand{\scnom}{\ensuremath{\scc^{\text{nom}}}}
+\newcommand{\scknom}{\ensuremath{\scck^{\text{nom}}}}
+\newcommand{\bcinom}{\ensuremath{\bci^{\text{nom}}}}
+\newcommand{\bciknom}{\ensuremath{\bcik^{\text{nom}}}}
+\newcommand{\bcnom}{\ensuremath{\bc^{\text{nom}}}}
+\newcommand{\bcknom}{\ensuremath{\bck^{\text{nom}}}}
+\newcommand{\s}{\ensuremath{s}}
+\newcommand{\snom}{\ensuremath{s^{\text{nom}}}}
+\newcommand{\bnom}{\ensuremath{b^{\text{nom}}}}
+\newcommand{\back}{\ensuremath{b}}
+\newcommand{\bi}{\ensuremath{b_i}}
+\newcommand{\nobsc}{\ensuremath{\nobs_c}}
+\newcommand{\nobsck}{\ensuremath{\nobs_{cl}}}
+\newcommand{\nobs}{\ensuremath{N^{\text{obs}}}}
+\newcommand{\n}{\ensuremath{N}}
+\newcommand{\nc}{\ensuremath{N_{c}}}
+\newcommand{\nck}{\ensuremath{N_{cl}}}
+\newcommand{\E}[1]{\ensuremath{\mathbb{E}\left[#1\right]}}
+\newcommand{\fsyst}{\ensuremath{h^{\text{syst}}}}
+\newcommand{\ffup}{\ensuremath{h^{\uparrow}}}
+\newcommand{\ffdown}{\ensuremath{h^{\downarrow}}}
+\newcommand{\pval}{\english{p-value}}
+\newcommand{\nochan}{\ensuremath{n}}
+\def\fourtop{\ensuremath{t\bar{t}t\bar{t}}}
+
+\begin{document}
+
+\input{titlepage}
+
+\input{remerciements}
+
+\tableofcontents
+
+\mainmatter
+
+\input{introduction}
+
+\input{jetcalib}
+
+\input{stat}
+
+\input{fourtops}
+
+\input{conclusion}
+
+\bibliography{biblio}{}
+\bibliographystyle{ieeetr}
+
+\end{document}
+
+
+To do :
+
+ - say that now GS is part of the ATLAS calibration dans conclusion partie 1 (section 1.6) and put ref describing recent calibration.
+
+ - ecrire conclusion

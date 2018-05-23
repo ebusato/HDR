@@ -1,0 +1,13 @@
+This is MetaPost, version 1.803 (kpathsea version 6.1.1)  10 MAY 2016 11:18
+**fgraph-4topsSM
+(mpost.mp (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.004) ) (./fgraph-4topsSM.mp
+(./feynmp.mp) [1] )
+ 
+Here is how much of MetaPost's memory you used:
+ 371 strings using 5991 characters
+ 1617344 bytes of node memory
+ 922 symbolic tokens
+ 14i,77n,28p,112b,3f stack positions out of 16i,96n,31p,200b,4f
+1 output file written: fgraph-4topsSM.1
+
